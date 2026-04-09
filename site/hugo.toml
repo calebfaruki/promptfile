@@ -1,0 +1,12 @@
+baseURL = "https://promptfile.md"
+languageCode = "en"
+title = "Promptfile"
+
+disableKinds = ["taxonomy", "term"]
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[markup.highlight]
+  noClasses = true
+  style = "monokailight"

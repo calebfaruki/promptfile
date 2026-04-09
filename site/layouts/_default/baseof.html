@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }}Promptfile{{ end }}</title>
+    <meta name="description" content="Promptfile declares prompt dependencies for LLM projects. Verifiable authorship. Auditable tampering.">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <header>
+        <nav>
+            <a href="/">Promptfile</a>
+            <a href="https://github.com/calebfaruki/promptfile">GitHub</a>
+        </nav>
+    </header>
+    <main id="main">
+        {{ block "content" . }}{{ end }}
+    </main>
+    <footer>
+        <p>Promptfile is a spec. Implementations are independent.</p>
+    </footer>
+</body>
+</html>
